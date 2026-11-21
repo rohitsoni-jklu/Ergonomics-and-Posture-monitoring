@@ -1,0 +1,13 @@
+# Recommended: Python 3.10 or 3.11
+numpy<2
+pandas
+scikit-learn
+matplotlib
+joblib
+tqdm
+opencv-python
+# MediaPipe: newer releases removed the "solutions" API used here, so keep this version
+mediapipe==0.10.14
+tensorflow>=2.16,<2.19
+# optional desktop notifications
+plyer
